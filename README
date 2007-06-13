@@ -1,0 +1,253 @@
+perl-PDF-API2
+------------------------------------------
+Perl module for creating high quality PDF files
+
+Runtime requirements:
+  perl-5.8.7-5
+
+Build requirements:
+  cygwin-1.5.24-1
+  cygport-0.2.11-1
+  make-3.81-1
+  perl-5.8.7-5
+
+Canonical website:
+  http://search.cpan.org/dist/PDF-API2/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/A/AR/AREIBENS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-PDF-API2-0.61-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-PDF-API2-0.61-X.cygport all
+
+This will create:
+  /usr/src/perl-PDF-API2-0.61-X-src.tar.bz2
+  /usr/src/perl-PDF-API2-0.61-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-PDF-API2.sh
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Annotation.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Array.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Bool.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Dict.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/File.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Filter.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Literal.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Name.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Null.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Number.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Objind.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Page.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Pages.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/String.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/PDF/Utils.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/AATKern.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/AATutils.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Anchor.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Bsln.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Cmap.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Coverage.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Cvt_.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Delta.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Fdsc.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Feat.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Fmtx.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Font.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Fpgm.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/GDEF.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/GPOS.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/GSUB.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Glyf.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Glyph.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Hdmx.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Head.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Hhea.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Hmtx.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern/ClassArray.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern/CompactClassArray.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern/OrderedList.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern/StateTable.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Kern/Subtable.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/LTSH.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Loca.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Maxp.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Chain.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Contextual.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Insertion.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Ligature.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Noncontextual.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Rearrangement.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Mort/Subtable.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Name.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/OS_2.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/OldCmap.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/OldMort.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/PCLT.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/PSNames.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Post.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Prep.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Prop.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Segarr.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Table.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Ttc.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Ttopen.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Useall.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Utils.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Vhea.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Vmtx.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/Win32.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Basic/TTF/XMLparse.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Content.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Content/Text.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/HOWTO.pod
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Lite.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Matrix.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/NamedDestination.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Outline.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Outlines.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Page.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/BaseFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont/adobemingstdlightacro.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont/adobemyungjostdmediumacro.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont/adobesongstdlightacro.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont/kozgopromediumacro.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CJKFont/kozminproregularacro.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CMap/japanese.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CMap/korean.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CMap/simplified.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/CMap/traditional.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/TrueType.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/CIDFont/TrueType/FontFile.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/DeviceN.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/Indexed.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/Indexed/ACTFile.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/Indexed/Hue.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/Indexed/WebColor.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ColorSpace/Separation.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/ExtGState.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/BdFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/bankgothic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/courier.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/courierbold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/courierboldoblique.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/courieroblique.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/georgia.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/georgiabold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/georgiabolditalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/georgiaitalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/helvetica.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/helveticabold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/helveticaboldoblique.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/helveticaoblique.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/symbol.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/timesbold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/timesbolditalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/timesitalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/timesroman.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/trebuchet.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/trebuchetbold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/trebuchetbolditalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/trebuchetitalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/verdana.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/verdanabold.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/verdanabolditalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/verdanaitalic.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/webdings.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/wingdings.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/CoreFont/zapfdingbats.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/Postscript.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Font/SynFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Pattern.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/Shading.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/UniFont.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode/codabar.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode/code128.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode/code3of9.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode/ean13.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/BarCode/int2of5.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Form/Hybrid.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/GD.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/GIF.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/JPEG.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/PNG.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/PNM.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/XObject/Image/TIFF.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/unicolor.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/uniglyph.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Resource/unipaper.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/UniWrap.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Util.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Version.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/Win32.pm
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/AUTHORS.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/BUGS.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSans-Bold.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSans-BoldOblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSans-ExtraLight.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSans-Oblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSans.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansCondensed-Bold.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansCondensed-BoldOblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansCondensed-Oblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansCondensed.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansMono-Bold.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansMono-BoldOblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansMono-Oblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSansMono.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerif-Bold.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerif-BoldOblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerif-Oblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerif.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerifCondensed-Bold.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerifCondensed-BoldOblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerifCondensed-Oblique.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/DejaVuSerifCondensed.ttf
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/LICENSE.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/NEWS.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/README.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/langcover.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/status.txt
+  /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/unicover.txt
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/PDF/API2/.packlist
+  /usr/share/doc/Cygwin/perl-PDF-API2-0.61.README
+  /usr/share/doc/perl-PDF-API2-0.61/AUTHORS
+  /usr/share/doc/perl-PDF-API2-0.61/COPYING
+  /usr/share/doc/perl-PDF-API2-0.61/ChangeLog
+  /usr/share/doc/perl-PDF-API2-0.61/INSTALL
+  /usr/share/doc/perl-PDF-API2-0.61/LICENSE
+  /usr/share/doc/perl-PDF-API2-0.61/README
+  /usr/share/doc/perl-PDF-API2-0.61/TODO
+  /usr/share/perl/cygwin-pods/5.8/PDF-API2.pod
+
+------------------
+
+Port Notes:
+
+----- version 0.61-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

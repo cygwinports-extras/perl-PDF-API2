@@ -1,0 +1,4 @@
+category: Perl Publishing
+requires: perl
+sdesc: "Perl module for creating high quality PDF files"
+ldesc: "Perl module for creating high quality PDF files"
