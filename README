@@ -3,13 +3,13 @@ perl-PDF-API2
 Perl module for creating high quality PDF files
 
 Runtime requirements:
-  perl-5.8.7-5
+  perl-5.8.8-4
 
 Build requirements:
   cygwin-1.5.24-2
   cygport-0.3.5-1
   make-3.81-1
-  perl-5.8.7-5
+  perl-5.8.8-4
 
 Canonical website:
   http://search.cpan.org/dist/PDF-API2/
@@ -20,15 +20,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-PDF-API2-0.62-X-src.tar.bz2
+  unpack perl-PDF-API2-0.63-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-PDF-API2-0.62-X.cygport all
+  cygport ./perl-PDF-API2-0.63-X.cygport all
 
 This will create:
-  /usr/src/perl-PDF-API2-0.62-X-src.tar.bz2
-  /usr/src/perl-PDF-API2-0.62-X.tar.bz2
+  /usr/src/perl-PDF-API2-0.63-X-src.tar.bz2
+  /usr/src/perl-PDF-API2-0.63-X.tar.bz2
 
 -------------------------------------------
 
@@ -231,19 +231,22 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/status.txt
   /usr/lib/perl5/vendor_perl/5.8/PDF/API2/fonts/unicover.txt
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/PDF/API2/.packlist
-  /usr/share/doc/Cygwin/perl-PDF-API2-0.62.README
-  /usr/share/doc/perl-PDF-API2-0.62/AUTHORS
-  /usr/share/doc/perl-PDF-API2-0.62/COPYING
-  /usr/share/doc/perl-PDF-API2-0.62/ChangeLog
-  /usr/share/doc/perl-PDF-API2-0.62/INSTALL
-  /usr/share/doc/perl-PDF-API2-0.62/LICENSE
-  /usr/share/doc/perl-PDF-API2-0.62/README
-  /usr/share/doc/perl-PDF-API2-0.62/TODO
+  /usr/share/doc/Cygwin/perl-PDF-API2-0.63.README
+  /usr/share/doc/perl-PDF-API2-0.63/AUTHORS
+  /usr/share/doc/perl-PDF-API2-0.63/COPYING
+  /usr/share/doc/perl-PDF-API2-0.63/ChangeLog
+  /usr/share/doc/perl-PDF-API2-0.63/INSTALL
+  /usr/share/doc/perl-PDF-API2-0.63/LICENSE
+  /usr/share/doc/perl-PDF-API2-0.63/README
+  /usr/share/doc/perl-PDF-API2-0.63/TODO
   /usr/share/perl/cygwin-pods/5.8/PDF-API2.pod
 
 ------------------
 
 Port Notes:
+
+----- version 0.63-1 -----
+Version bump.
 
 ----- version 0.62-1 -----
 Version bump.
